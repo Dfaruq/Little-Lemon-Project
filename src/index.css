@@ -18,6 +18,7 @@ header {
   margin: 0;
   padding: 20px; 
   background-color: #D9D9D9;
+  justify-content: space-evenly
 } 
 header img {
   height: 100px;
@@ -26,8 +27,11 @@ header img {
 nav ul {
   list-style: none; 
   padding: 0px;
-  margin-left: 160px;
+  margin:  0px;
   display: flex; 
+  flex-direction: column;
+  align-items: center;
+  
 } 
 nav li {
   margin: 0 20px;
@@ -44,11 +48,13 @@ main {
   display: grid; 
   grid-template-columns: 100%;
   grid-template-rows: auto;
+  text-align: center;
 } 
 
 #hero {
   background-color: #495E57;
   color:#F4CE14;
+  text-align: center;
 } 
 #hero p {
   color: #FFFF;
@@ -56,16 +62,21 @@ main {
 
 footer {
   display: flex;
+  flex-direction: row;
   margin: 0;
-  padding: 20px; 
+  padding: 20px;
   background-color: #D9D9D9;
+  align-items: flex-start;
+  justify-content: space-around;
 } 
 footer ul {
-    list-style: none;
-    padding: 0px;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
 }
 footer h2 {
-  font-size:medium
+  font-size:medium;
 }
 footer a {
   text-decoration: none; 
@@ -75,12 +86,35 @@ footer a {
 }
 footer img{
   height: 80px;
-  margin-top: 50px;
+  width: 50px;
+  margin-top: 30px;
+  align-items: left;
 } 
 footer div {
-  margin-bottom: 20px; 
-  margin-left: 160px;
+  margin-bottom: 20px;
 }
 
+@media (min-width: 600px) {
+  header {
+    justify-content: space-between;
+  }
 
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  footer ul {
+    flex-direction: column;
+  }
+  #image {
+    align-self: flex-start;
+  }
+}
 

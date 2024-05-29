@@ -4,7 +4,9 @@ import './index.css';
 function Footer() {
     return (
     <footer>
+      <div id="image">
         <img src={logo2} alt="Little Lemon Logo"/>
+      </div>
       <div>
         <h2>Navigation</h2>
           <ul>
@@ -35,6 +37,6 @@ function Footer() {
 
     </footer>
   )
-}
+} 
 
 export default Footer;
