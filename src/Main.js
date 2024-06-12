@@ -40,11 +40,11 @@ function Main() {
       </div>
       <div id="testimonials">
         <h3>Testimonials</h3>
-        <div class="testimonial-container">
-    <div class="testimonial">
+     <div class="testimonial-container">
+     <div class="testimonial">
       <div class="testimonial-header">
         <div class="title-container">
-          <h4 class="testimonial-title">Great Service!</h4>
+          <h4 class="testimonial-title">"Great Service"</h4>
         </div>
         <div class="user-info">
           <img src={User} alt="User 1" class="testimonial-img"/>
@@ -59,7 +59,7 @@ function Main() {
     <div class="testimonial">
       <div class="testimonial-header">
         <div class="title-container">
-          <h4 class="testimonial-title">Amazing Food!</h4>
+          <h4 class="testimonial-title">"Amazing Food!"</h4>
         </div>
         <div class="user-info">
           <img src={User} alt="User 2" class="testimonial-img"/>
@@ -68,13 +68,13 @@ function Main() {
       </div>
       <div class="testimonial-content">
         <h5>Best Mediterranean Cuisine</h5>
-        <p>The best Mediterranean food I've ever had. The flavors were authentic and fresh.</p>
+        <p>The best Mediterranean food I've ever had. The flavours were authentic and fresh.</p>
       </div>
     </div>
     <div class="testimonial">
       <div class="testimonial-header">
         <div class="title-container">
-          <h4 class="testimonial-title">Excellent Atmosphere!</h4>
+          <h4 class="testimonial-title">"Excellent Atmosphere"</h4>
         </div>
         <div class="user-info">
           <img src={User} alt="User 3" class="testimonial-img"/>
